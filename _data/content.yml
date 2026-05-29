@@ -7,7 +7,7 @@
 hero:
   image: 'D:/test/istockphoto-587805156-1024x1024.jpg'
   image_alt: "차형준"
-  before_title: "안녕하세요, <b>제 이름은</b>"
+  before_title: "환영합니다, <b>제 이름은</b>"
   title: "<b>Hyungjun</b> Cha"
   after_title: "I am <strong>Cyber Security Professional</strong>"
   description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 차형준 입니다."
@@ -19,8 +19,8 @@ hero:
     link: "#skills-section"
   bg_title: "Cyber Security"
   info:
-    - num: "2 <strong>+</strong>"
-      value: "Years of <strong>Experience</strong>"
+    - num: "2"
+      value: "Years of <strong>Study</strong>"
 
     - num: "2"
       value: "Completed <strong>Projects</strong>"
@@ -29,38 +29,26 @@ hero:
 services:
   title: "What I Do"
   subtitle: "my <b>Services</b>"
-  bg_title: "Services"
+  bg_title: "Security"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "Vulnerability Analysis"
+      subtitle: "취약점 진단"
+      text: "웹 애플리케이션 및 시스템의 보안 취약점을 분석하고 모의해킹을 통해 잠재적 위협을 식별합니다."
+      button_label: "Contact Me"
+      button_link: "#contact-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "Network &amp; System Security"
+      subtitle: "시스템 및 네트워크 보안"
+      text: "리눅스 및 윈도우 서버 환경의 보안 설정을 강화하고, 방화벽 및 IDS/IPS 운영을 분석합니다."
+      button_label: "Contact Me"
+      button_link: "#contact-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
-
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
-
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "Security Coding"
+      subtitle: "보안 코딩"
+      text: "C, Python, JavaScript를 활용하여 안전한 스크립트 작성 및 소프트웨어 개발 보안을 적용합니다."
+      button_label: "Contact Me"
+      button_link: "#contact-section"
 
 ### Skills [ skills ]
 skills:
@@ -70,33 +58,23 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "C Language"
+        text: "C, C++의 기초적인 문법을 이해하고 시스템 프로그래밍에 활용할 수 있습니다."
+        value: "70"
 
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "Python"
+        text: "보안 툴 자동화 스크립트 제작 및 데이터 분석에 Python을 다룰 수 있습니다."
+        value: "75"
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "JavaScript"
+        text: "웹 프론트엔드 환경을 이해하고 크로스 사이트 스크립팅(XSS) 등 웹 취약점 분석에 활용합니다."
+        value: "75"
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
-
-  column3:
-    items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
-
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "Linux (CentOS/Ubuntu)"
+        text: "리눅스 서버 환경의 권한 관리, 서비스 설정 및 시스템 로그 분석이 가능합니다."
+        value: "80"
 
 ### Resume [ resume ]
 resume:
@@ -107,138 +85,32 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학 강서캠퍼스"
+        subname: "사이버보안과 (2학년 재학)"
+        period: "2025 - Present"
+        text: "네트워크 보안, 시스템 보안, 모의해킹, 암호학 등 정보보안 전반의 실무 기술을 학습하고 있습니다."
 
   experience:
-    title: "Experience"
+    title: "Certifications &amp; Activity"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "정보보안산업기사"
+        subname: "한국인터넷진흥원(KISA)"
+        period: "2026"
+        text: "시스템, 네트워크, 어플리케이션 보안 및 정보보안 관계 법령에 대한 지식을 검증받았습니다."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "리눅스마스터 2급"
+        subname: "한국정보통신진흥협회(KAIT)"
+        period: "2025"
+        text: "리눅스 시스템 운영 및 기본 명령어 활용, 네트워크 서비스 설정 능력을 인증받았습니다."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "네트워크관리사 2급"
+        subname: "한국정보통신자격협회(ICQA)"
+        period: "2025"
+        text: "네트워크 일반, TCP/IP, NOS 및 네트워크 운용기기 설정 능력을 갖추었습니다."
 
-
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
-
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
-### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
-  bg_title: "Pricing"
-
-  items:
-    - name: "Hourley Basis"
-      center: false
-      price: "39 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: false
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-    - name: "Freelancing"
-      center: true
-      label: "Popular"
-      price: "259 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-    - name: "Full Time"
-      center: false
-      price: "1.249 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
 
 
 ### Blog [ blog ]
-#items generates from dir /_posts/*
 blog:
   title: "Latest Blog"
   subtitle: "my <b>Articles and Advice</b>"
@@ -257,22 +129,21 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "서울특별시 강서구 (한국폴리텍대학 강서캠퍼스)"
 
-    - label: "Freelance"
+    - label: "Status"
       icon: "far fa-user"
-      text: "Available Right Now"
+      text: "Available for Internships &amp; Projects"
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "your-email@example.com" # 본인 이메일로 변경하세요.
 
     - label: "Phone"
       icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "010-XXXX-XXXX" # 본인 전화번호로 변경하세요.
 
 ### Portfolio [ portfolio ]
-#items generates from dir /_works/*
 portfolio:
   title: "Portfolio"
   subtitle: "my <b>Cases</b>"
