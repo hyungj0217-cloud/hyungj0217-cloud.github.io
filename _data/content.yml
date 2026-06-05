@@ -5,7 +5,7 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: 'D:/test/istockphoto-587805156-1024x1024.jpg'
+  image: '"D:\repo\id.jpg"'
   image_alt: "차형준"
   before_title: "환영합니다, <b>제 이름은</b>"
   title: "<b>Hyungjun</b> Cha"
